@@ -1,0 +1,15 @@
+Tech Ladies
+
+http://stackoverflow.com/
+
+
+    self.server_name = socket.getfqdn(host)
+  File "C:\Python34\lib\socket.py", line 463, in getfqdn
+    hostname, aliases, ipaddrs = gethostbyaddr(name)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe1 in position 3: invalid
+continuation byte
+
+
+... runserver 8001
+
+http://127.0.0.1:8001/
